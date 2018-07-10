@@ -2,6 +2,7 @@
 #Imorting the Libraries
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 #Importing the Dataset
 dataset=pd.read_csv('dataset_name.csv')
 X= dataset.iloc[:,:-1].values
